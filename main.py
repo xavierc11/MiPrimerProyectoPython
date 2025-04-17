@@ -1,4 +1,6 @@
 
+import utilidades
+
 def suma(num1, num2):
     #print(f"Función suma, params => num1: {num1} y num2: {num2}")
     result = num1 + num2
@@ -41,7 +43,8 @@ digito1 = float(input("Ingrese el dígito 1: "))
 digito2 = float(input("Ingrese el dígito 2: "))
 
 do_operations(operacion, digito1, digito2)
-
+print(f'La fecha y hora actual es: {utilidades.get_current_date()}')
+print(f'{utilidades.save_file('ruta')}')
 print(f"Gracias por utilizar este servicio!.")
 
 
