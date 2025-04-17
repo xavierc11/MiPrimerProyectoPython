@@ -34,11 +34,15 @@ def do_operations(ope, dig1, dig2):
             resultado_divi = divi(dig1, dig2)
             print(f'El resultado de la división es: {resultado_divi}')
 
+print(f"Bienvenido a mi calculadora para bots!")
+print("\n")
 operacion = int(input(f"Ingrese la operación a realizar\n(1=suma, 2=resta, 3=multiplicacion, 4=division): "))
 digito1 = float(input("Ingrese el dígito 1: "))
 digito2 = float(input("Ingrese el dígito 2: "))
 
 do_operations(operacion, digito1, digito2)
+
+print(f"Gracias por utilizar este servicio!.")
 
 
 
